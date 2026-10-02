@@ -1,0 +1,49 @@
+//este código usar cifra de cesar shift 3, PA 3 e vetor básico 
+
+#include <stdio.h> //Biblioteca padrão dados de entrada e saída, h = cabeçalho
+
+
+int main() //função main, identificada por() e do tipo int
+
+{ // indica o início do bloco da função main
+
+char letras [15]; // criado um vetor de 15 posições do tipo char 
+
+
+letras [0] = 'f'; // a senha usada é cachorroamarelo, daqui até letra o aplicado Shift 3
+letras [1] = 'd';
+letras [2] = 'f';
+letras [3] = 'k';
+letras [4] = 'r';
+letras [5] = 'u';
+letras [6] = 'u';
+letras [7] = 'r';
+letras [8] = 'd';
+letras [9] = 'p';
+letras [10] = 'd';
+letras [11] = 'r';
+letras [12] = 'e';
+letras [13] = 'o';
+letras [14] = 'r';
+
+letras [0] += 3; // Daqui em diante, aplicado Progressão Aritimética 3, o sinal +
+letras [1] += 3;
+letras [2] += 3;
+letras [3] += 3;
+letras [4] += 3;
+letras [5] += 3;
+letras [6] += 3;
+letras [7] += 3;
+letras [8] += 3;
+letras [9] += 3;
+letras [10] += 3;
+letras [11] += 3;
+letras [12] += 3;
+letras [13] += 3;
+letras [14] += 3;
+
+
+printf("Palavra codificada: %c%c%c%c%c%c%c%c%c%c%c%c%c%c%c \n| Cifra de cesar - Shift = 3 | PA = 3 | Total de letras: 15\n", letras [0],letras [1], letras [2], letras [3], letras [4], letras [5], letras [6], letras [7], letras [8], letras [9], letras [10], letras [11], letras [12], letras [13], letras [14]);
+//printf exibe o resultado da Palavra codificada
+return 0; // indica fim do programa
+}
